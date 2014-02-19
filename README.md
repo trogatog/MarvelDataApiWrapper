@@ -16,7 +16,7 @@ Add the following values to your web.config configuration section:
     \<!-- Endpoints --\><br/>
     \<add key="MarvelApiEndpoint" value="http://gateway.marvel.com" /\><br/>
     \<add key="MarvelApiVersion" value="1" /\><br/>
-  \</appSettings/><br/><br/>
+  \</appSettings\><br/><br/>
 
 When instansiating the API, you will need to designate the wrapper class you are expecting to be returned:<br/><br/>
 
