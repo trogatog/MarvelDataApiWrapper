@@ -9,18 +9,18 @@ Usage
 
 Add the following values to your web.config configuration section:
 
-&LT;appSettings&GT;<br/>
-    &LT;-- API Keys --&GT;<br/>
-    &LT;add key="PublicKey" value="" /&GT;<br/>
-    &LT;add key="PrivateKey" value="" /&GT;<br/>
-    &LT;!-- Endpoints --&GT;<br/>
-    &LT;add key="MarvelApiEndpoint" value="http://gateway.marvel.com" /&GT;<br/>
-    &LT;add key="MarvelApiVersion" value="1" /&GT;<br/>
-  &LT;/appSettings&GT;<br/><br/>
+\<appSettings\><br/>
+    \<!-- API Keys --\><br/>
+    \<add key="PublicKey" value="" /\><br/>
+    \<add key="PrivateKey" value="" /\><br/>
+    \<!-- Endpoints --\><br/>
+    \<add key="MarvelApiEndpoint" value="http://gateway.marvel.com" /\><br/>
+    \<add key="MarvelApiVersion" value="1" /\><br/>
+  \</appSettings&GT;<br/><br/>
 
 When instansiating the API, you will need to designate the wrapper class you are expecting to be returned:<br/><br/>
 
-IMarvelApi<CharacterDataWrapper> _marvelApi = new MarvelApi<CharaterDataWrapper>();<br/><br/>
+IMarvelApi\<CharacterDataWrapper\> _marvelApi = new MarvelApi\<CharaterDataWrapper\>();<br/><br/>
 
 Api Calls<br/>
 ====================
